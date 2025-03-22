@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surprise for Yasin 😍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            margin: 0;
+            overflow: hidden;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            animation: colorChange 2s infinite alternate;
+            transition: color 0.5s ease;
+        }
+
+        @keyframes colorChange {
+            0% { color: #ff4d4d; } /* Red */
+            20% { color: #ffdb4d; } /* Yellow */
+            40% { color: #4dff4d; } /* Green */
+            60% { color: #4da6ff; } /* Blue */
+            80% { color: #ff4dff; } /* Purple */
+            100% { color: #ff4d4d; } /* Red */
+        }
+
+        /* First image animation (left to right) */
+        .image-1 {
+            width: 250px;
+            height: auto;
+            position: absolute;
+            bottom: 50px;
+            animation: moveImage1 6s infinite alternate ease-in-out;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+        }
+
+        @keyframes moveImage1 {
+            0% { left: -100px; opacity: 0.5; transform: rotate(-5deg); }
+            100% { left: calc(100% - 250px); opacity: 1; transform: rotate(5deg); }
+        }
+
+        /* Second image animation (right to left) */
+        .image-2 {
+            width: 250px;
+            height: auto;
+            position: absolute;
+            top: 50px;
+            animation: moveImage2 6s infinite alternate ease-in-out;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+        }
+
+        @keyframes moveImage2 {
+            0% { right: -100px; opacity: 0.5; transform: rotate(5deg); }
+            100% { right: calc(100% - 250px); opacity: 1; transform: rotate(-5deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>I Love my Jan Yasin 🥰🥰😘😘😍😍😎</h1>
+    <img class="image-1" src="13333333.PNG" alt="Surprise Image">
+    <img class="image-2" src="WhatsApp Image 2025-03-21 at 11.40.06_eed26ef2.jpg" alt="Surprise Image 2">
+</body>
+</html>
